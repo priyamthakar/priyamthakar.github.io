@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Priyam Thakar — Data Scientist working at the intersection of machine learning, pharmaceutical sciences, and healthcare." />
+  <meta name="author" content="Priyam Thakar" />
+  <meta name="theme-color" content="#0a0a0f" />
+
+  <meta property="og:title" content="Priyam Thakar — Data Science · ML · Healthcare" />
+  <meta property="og:description" content="From pharmaceutical nanotechnology to deep learning in healthcare. Research, projects, and writing." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://priyamthakar.github.io/" />
+
+  <title>Priyam Thakar — Data Science · ML · Healthcare</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' font-family='serif' fill='%237c5cff'%3EP%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-gradient" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- Custom cursor -->
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-text">
+      <span>P</span><span>R</span><span>I</span><span>Y</span><span>A</span><span>M</span>
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <header class="nav">
+    <a href="#top" class="brand">
+      <span class="brand-mark">PT</span>
+      <span class="brand-name">Priyam Thakar</span>
+    </a>
+    <nav class="nav-links" aria-label="primary">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#writing">Writing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-meta">
+        <span class="status-dot"></span>
+        <span>Available for research collaborations · 2026</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="line"><em>Decoding</em> the molecular,</span>
+        <span class="line">building with <span class="grad">machine intelligence.</span></span>
+      </h1>
+
+      <p class="hero-sub">
+        I'm <strong>Priyam Thakar</strong> — a researcher and engineer working at the intersection of
+        <span class="hl">pharmaceutical sciences</span>, <span class="hl">deep learning</span>, and
+        <span class="hl">regulated healthcare data</span>. From nanotech to neural nets, I build tools that
+        help science move faster and safer.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <span>View projects</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Say hello</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num" data-count="6">0</div>
+          <div class="stat-label">Open-source repos</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="4">0</div>
+          <div class="stat-label">Active research areas</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="2">0</div>
+          <div class="stat-label">Scientific domains</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="100" data-suffix="%">0</div>
+          <div class="stat-label">Curiosity-driven</div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <span class="scroll-line"></span>
+        <span>scroll</span>
+      </a>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Pharmaceutical Nanotechnology</span><span aria-hidden="true">✦</span>
+        <span>Deep Learning</span><span aria-hidden="true">✦</span>
+        <span>FDA Regulatory Intelligence</span><span aria-hidden="true">✦</span>
+        <span>Drug Safety Analytics</span><span aria-hidden="true">✦</span>
+        <span>NLP for Healthcare</span><span aria-hidden="true">✦</span>
+        <span>Scientific Computing</span><span aria-hidden="true">✦</span>
+        <span>Pharmaceutical Nanotechnology</span><span aria-hidden="true">✦</span>
+        <span>Deep Learning</span><span aria-hidden="true">✦</span>
+        <span>FDA Regulatory Intelligence</span><span aria-hidden="true">✦</span>
+        <span>Drug Safety Analytics</span><span aria-hidden="true">✦</span>
+        <span>NLP for Healthcare</span><span aria-hidden="true">✦</span>
+        <span>Scientific Computing</span><span aria-hidden="true">✦</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="eyebrow">01 · About</span>
+        <h2 class="section-title">A scientist learning to <em>speak in models.</em></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-col">
+          <p class="lede">
+            From the micro-world of pharmaceutical nanotechnology to the vast universe of biological
+            sciences, I'm embarking on a thrilling quest into <em>data science</em>.
+          </p>
+          <p>
+            My work sits in the gap between hard science and software. I trained as a pharmaceutical
+            scientist — formulation, drug delivery, regulatory frameworks — and I'm now translating
+            that domain knowledge into machine learning systems for healthcare. The goal is the
+            same as it ever was: safer therapies, faster.
+          </p>
+          <p>
+            I care about reproducibility, interpretability, and the unglamorous plumbing that
+            makes scientific software actually usable. I write Python, train neural networks,
+            wrangle messy regulatory corpora, and occasionally publish what I learn.
+          </p>
+
+          <ul class="kv">
+            <li><span>Based</span><span>India · Working globally</span></li>
+            <li><span>Focus</span><span>ML for healthcare &amp; pharma</span></li>
+            <li><span>Stack</span><span>Python · PyTorch · HuggingFace · Pandas</span></li>
+            <li><span>Status</span><span>Open to collaborations</span></li>
+          </ul>
+        </div>
+
+        <aside class="about-card">
+          <div class="card-corner"></div>
+          <div class="card-corner br"></div>
+          <div class="card-header">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="card-title">// whoami.sh</span>
+          </div>
+          <pre class="code"><span class="t-c">$</span> cat priyam.json
+<span class="t-p">{</span>
+  <span class="t-k">"name"</span>: <span class="t-s">"Priyam Thakar"</span>,
+  <span class="t-k">"role"</span>: <span class="t-s">"Data Scientist · Pharma Researcher"</span>,
+  <span class="t-k">"interests"</span>: [
+    <span class="t-s">"deep learning"</span>,
+    <span class="t-s">"drug discovery"</span>,
+    <span class="t-s">"regulatory NLP"</span>,
+    <span class="t-s">"nanotechnology"</span>
+  ],
+  <span class="t-k">"currently"</span>: <span class="t-s">"shipping scichunk + RegAffairsBot"</span>,
+  <span class="t-k">"reading"</span>: <span class="t-s">"papers on LLMs in clinical workflows"</span>,
+  <span class="t-k">"open_to"</span>: <span class="t-s">"research, freelance, full-time"</span>
+<span class="t-p">}</span>
+<span class="t-c">$</span> <span class="cursor-blink">_</span></pre>
+        </aside>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="section-head">
+        <span class="eyebrow">02 · Research</span>
+        <h2 class="section-title">Areas I'm <em>actively exploring.</em></h2>
+        <p class="section-desc">
+          Less a CV, more a map of open questions. Each thread below is a problem I'm reading
+          about, prototyping against, or actively shipping code for.
+        </p>
+      </div>
+
+      <div class="research-grid">
+        <article class="research-card" data-tilt>
+          <div class="research-num">R-01</div>
+          <h3>Deep Learning for Drug Safety</h3>
+          <p>
+            Mining post-marketing surveillance, drug review corpora, and adverse-event reports
+            with transformer models to surface signals earlier than traditional pharmacovigilance.
+          </p>
+          <ul class="tags">
+            <li>NLP</li><li>Transformers</li><li>Pharmacovigilance</li>
+          </ul>
+        </article>
+
+        <article class="research-card" data-tilt>
+          <div class="research-num">R-02</div>
+          <h3>Regulatory Intelligence</h3>
+          <p>
+            Building retrieval-augmented assistants over FDA, EMA, and ICH corpora — turning
+            slow, expert-bottlenecked workflows into interactive, citation-grounded interfaces.
+          </p>
+          <ul class="tags">
+            <li>RAG</li><li>LLMs</li><li>FDA · EMA · ICH</li>
+          </ul>
+        </article>
+
+        <article class="research-card" data-tilt>
+          <div class="research-num">R-03</div>
+          <h3>Scientific Document Processing</h3>
+          <p>
+            Better chunking, embeddings, and structure-aware parsing for scientific PDFs.
+            Most "PDF to text" loses everything that matters — equations, tables, figures, intent.
+          </p>
+          <ul class="tags">
+            <li>Embeddings</li><li>Chunking</li><li>OCR</li>
+          </ul>
+        </article>
+
+        <article class="research-card" data-tilt>
+          <div class="research-num">R-04</div>
+          <h3>Pharmaceutical Nanotechnology</h3>
+          <p>
+            My origin story. Drug delivery systems, nano-formulations, and the slow translation
+            from bench to bedside. ML-augmented characterization is where I see the next leap.
+          </p>
+          <ul class="tags">
+            <li>Drug Delivery</li><li>Formulation</li><li>Bio-AI</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <span class="eyebrow">03 · Projects</span>
+        <h2 class="section-title">Things I've <em>built &amp; shipped.</em></h2>
+        <p class="section-desc">
+          A selection of open-source work — most lives on
+          <a href="https://github.com/priyamthakar" target="_blank" rel="noopener">GitHub</a>.
+        </p>
+      </div>
+
+      <div class="projects">
+        <a class="project-card featured" href="https://github.com/priyamthakar/scichunk" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-tag">Python · MIT</span>
+            <span class="project-status">In active development</span>
+          </div>
+          <h3 class="project-title">scichunk</h3>
+          <p class="project-desc">
+            A scientific-document chunking library designed for RAG pipelines. Preserves
+            section hierarchy, captions, and reference context that naive splitters destroy —
+            so LLMs can actually reason over papers.
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>NLP</span><span>RAG</span><span>Open Source</span>
+          </div>
+          <div class="project-arrow">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/priyamthakar/RegAffairsBot" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-tag">Python</span>
+          </div>
+          <h3 class="project-title">RegAffairsBot</h3>
+          <p class="project-desc">
+            A conversational assistant for regulatory affairs queries — answering questions
+            about FDA guidances, submission types, and compliance with grounded citations.
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>LLM</span><span>FDA</span>
+          </div>
+          <div class="project-arrow">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/priyamthakar/Sentiment-Analysis-of-Drug-Reviews-Using-Deep-Learning" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-tag">Jupyter · DL</span>
+          </div>
+          <h3 class="project-title">Drug Review Sentiment Analysis</h3>
+          <p class="project-desc">
+            Deep-learning models trained on patient drug-review corpora to classify sentiment,
+            surface adverse experiences, and benchmark against classical baselines.
+          </p>
+          <div class="project-stack">
+            <span>PyTorch</span><span>NLP</span><span>Healthcare</span>
+          </div>
+          <div class="project-arrow">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/priyamthakar/FDA-Product-Recalls-EDA" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-tag">Jupyter · EDA</span>
+            <span class="project-status">★ 1</span>
+          </div>
+          <h3 class="project-title">FDA Product Recalls — EDA</h3>
+          <p class="project-desc">
+            Exploratory analysis of FDA product-recall data: classification reasons, recall
+            timelines, manufacturer patterns, and what regulators flag most often.
+          </p>
+          <div class="project-stack">
+            <span>Pandas</span><span>Plotly</span><span>FDA Data</span>
+          </div>
+          <div class="project-arrow">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/priyamthakar" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-tag">More on GitHub</span>
+          </div>
+          <h3 class="project-title">Everything else →</h3>
+          <p class="project-desc">
+            Notebooks, experiments, half-finished ideas, and the occasional weekend hack.
+            All open source, all on GitHub.
+          </p>
+          <div class="project-stack">
+            <span>github.com/priyamthakar</span>
+          </div>
+          <div class="project-arrow">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- WRITING / NOW -->
+    <section id="writing" class="section">
+      <div class="section-head">
+        <span class="eyebrow">04 · Now</span>
+        <h2 class="section-title">What I'm working on <em>this quarter.</em></h2>
+      </div>
+
+      <div class="now-grid">
+        <div class="now-item">
+          <div class="now-date">Reading</div>
+          <h4>LLMs in clinical &amp; regulatory workflows</h4>
+          <p>Papers on RAG over biomedical corpora, evaluation harnesses for clinical LLMs, and the messy realities of deploying generative models in regulated environments.</p>
+        </div>
+        <div class="now-item">
+          <div class="now-date">Building</div>
+          <h4>scichunk v0.x</h4>
+          <p>Iterating on a chunking library that respects scientific document structure — sections, captions, equations, references — for downstream RAG.</p>
+        </div>
+        <div class="now-item">
+          <div class="now-date">Learning</div>
+          <h4>Modern deep learning</h4>
+          <p>Transformer internals, fine-tuning small models, and how to evaluate them honestly. Less hype, more harness.</p>
+        </div>
+        <div class="now-item">
+          <div class="now-date">Wishing</div>
+          <h4>Pharma + open source</h4>
+          <p>Pushing for more reproducible, open tooling in regulatory and pharmaceutical workflows. The industry is overdue.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="contact-inner">
+        <span class="eyebrow">05 · Contact</span>
+        <h2 class="contact-title">
+          Have a problem worth <em>solving together?</em>
+        </h2>
+        <p class="contact-sub">
+          Research collaborations, freelance work, or a thoughtful conversation about ML in
+          healthcare — I'd genuinely love to hear from you.
+        </p>
+
+        <a href="mailto:priyamthakar1@gmail.com" class="email-cta">
+          <span class="email-label">Drop a line</span>
+          <span class="email-addr">priyamthakar1@gmail.com</span>
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+
+        <div class="socials">
+          <a href="https://github.com/priyamthakar" target="_blank" rel="noopener" class="social">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.65 1.65.24 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="mailto:priyamthakar1@gmail.com" class="social">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7l9 6 9-6M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/></svg>
+            <span>Email</span>
+          </a>
+          <a href="https://www.linkedin.com/in/priyamthakar" target="_blank" rel="noopener" class="social">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm12.5 11.27h-3v-5.6c0-3.37-4-3.12-4 0v5.6h-3v-10h3v1.76c1.4-2.58 7-2.78 7 2.47v5.77z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener" class="social">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            <span>Scholar</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">Priyam Thakar</div>
+        <div class="footer-tag">Built with care · No frameworks, no trackers.</div>
+      </div>
+      <div class="footer-right">
+        <div>© <span id="year"></span> Priyam Thakar</div>
+        <div class="footer-meta">v1.0 · Last updated April 2026</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
